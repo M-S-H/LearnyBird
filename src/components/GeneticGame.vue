@@ -20,7 +20,7 @@
       return {
         canvas: null,
         context: null,
-        fps: 60,
+        fps: 240,
         assets: {},
         loaded: false,
         paused: false,
