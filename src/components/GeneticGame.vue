@@ -140,7 +140,7 @@
             this.birds[i].update()
             if (this.birds[i].isDead(window.innerHeight, this.pipes)) {
               this.birds[i].alive = false
-              this.neuro.genomes[i].fitness = this.score
+              this.neuro.genomes[i].fitness = this.currentScore
             }
           }
         }
